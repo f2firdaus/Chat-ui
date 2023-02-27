@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="href" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="left_sub_nav">
+          <p class="chat_session">CHAT SESSIONS</p>
+        </div>
+        <div onclick="chatBtn()" class="left_sub" id="sub_nav">
+          <div class="img">
+            <img src="./images/img1.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">John Mayers</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">3 min ago</p></div>
+        </div>
+
+    
+        <div onclick="chatBtn2()" class="left_sub" id="sub_nav">
+          <div class="img">
+            <img src="./images/img2.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Tony Stark</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">10 min ago</p></div>
+        </div>
+
+     
+        <div class="left_sub">
+          <div class="img">
+            <img src="./images/img3.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Bessie Berry</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">3 hours</p></div>
+        </div>
+
+        <div class="left_sub">
+          <div class="img">
+            <img src="./images/img4.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Gleb Kuznetsov</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">4 hours ago</p></div>
+        </div>
+
+   
+        <div class="left_sub">
+          <div class="img">
+            <img src="./images/img5.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Andrey Prokopenko</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">8 hours ago</p></div>
+        </div>
+
+      
+        <div class="left_sub">
+          <div class="img">
+            <img src="./images/img6.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Nick herasimenka</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">22 hours ago</p></div>
+        </div>
+
+      
+        <div class="left_sub">
+          <div class="img">
+            <img src="./images/img7.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Valentine Salmon</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">Dec 10</p></div>
+        </div>
+
+       
+        <div class="left_sub">
+          <div class="img">
+            <img src="./images/img8.jpg" alt="" class="images" />
+          </div>
+          <div class="contact_name">
+            <h3 class="name">Miro Kirov</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet Consect...</p>
+          </div>
+          <div class="time_active"><p class="time-ago">Dec 2</p></div>
+        </div>
+      </div>
+
+      <!--Chat details-->
+
+      <div class="right">
+        <div class="right_sub_nav">
+          <p class="chat_details">CHAT DETAILS</p>
+          <p class="cross">x</p>
+        </div>
+        <div class="chat-secion">
+          <div class="chat_sec_first">
+            <div class="for_active">
+              <img
+                src="./images/img1.jpg"
+                alt="img1"
+                class="imgus"
+                id="img_fetch"
+              />
+              <div class="shows_active"></div>
+            </div>
+            <div class="abt_prfile">
+              <p class="names" id="name_fetch">John Mayers</p>
+              <p class="abouts" id="about_fetch">Account Manager</p>
+            </div>
+          </div>
+
+          <div class="chat_sec_second">
+            <div class="mine_msgs">
+              <p class="chats">Hi, how can I help you?</p>
+            </div>
+
+            <div class="urs_msgs" id="for_wv_ht">
+              <p class="ur_msgs" id="ur_msg">
+                Hi guys Ive got the O2 package and have really slow internet. A
+                speed check online said i can get 3mbps but it seems more like
+                0.5 these days, just freezing and taking ages to open pages and
+                open audio files for example. I have decided to switch to the
+                UPC package which offers 10mbps but do you think i will get it?
+              </p>
+            </div>
+
+            <div class="mine_msgs2" id="for_mine_wv_ht">
+              <p class="chats2">
+                Sure! I will definitely help you with you query. Could you
+                please confirm your email address?
+              </p>
+            </div>
+          </div>
+
+          <div class="chat_sec_third">
+            <input
+              type="text"
+              placeholder="Type your message here..."
+              class="typing"
+            />
+            <button class="btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

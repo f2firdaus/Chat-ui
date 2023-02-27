@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  letter-spacing: 0px;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  border-left: 2px solid #f1f1f3;
+  position: relative;
+}
+
+.left {
+  width: 30%;
+  height: 98%;
+  background-color: #ffffff;
+}
+
+.left_sub {
+  width: 100%;
+  height: 11.625%;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f3;
+  border-left: none;
+  border-right: 1px solid #f1f1f3;
+  border-top: none;
+  display: flex;
+  flex-direction: row;
+
+  position: relative;
+}
+
+.left_sub_nav {
+  width: 100%;
+  height: 6.4%;
+  background-color: #00a0ae;
+  position: relative;
+}
+
+.chat_session {
+  font-size: 23px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  left: 30px;
+  top: 8px;
+}
+
+.img {
+  margin-left: 18px;
+}
+
+.images {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.contact_name {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+  margin-left: 2px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.lorem {
+  font-size: 18px;
+}
+
+.time_active {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  right: 15px;
+  top: 3px;
+}
+
+.act_section {
+  padding-top: 5px;
+  width: auto;
+  height: 20%;
+  font-size: 9px;
+  letter-spacing: 0px;
+  color: #43425d;
+}
+
+.right {
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 2px solid #f1f1f3;
+  border-left: 1px solid #f1f1f3;
+  border-top: none;
+}
+
+.right_sub_nav {
+  width: 100%;
+  height: 6.25%;
+  background-color: #00a0ae;
+  display: flex;
+  position: relative;
+}
+
+.chat_details {
+  font-size: 23px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  left: 20px;
+  top: 8px;
+}
+
+.cross {
+  position: absolute;
+  right: 20px;
+
+  font-size: 2em;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.chat-secion {
+  width: 100%;
+  height: 93%;
+  background-color: #ffffff;
+}
+
+.chat_sec_first {
+  width: 100%;
+  height: 14%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #f1f1f3;
+  display: flex;
+  gap: 1.1rem;
+  align-items: center;
+}
+
+.imgus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 2.75rem;
+}
+
+.for_active {
+  position: relative;
+}
+
+.shows_active {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: rgb(19, 247, 19);
+  position: absolute;
+  left: 80px;
+  bottom: 6px;
+}
+
+.abt_prfile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.names {
+  font-size: 26px;
+}
+
+.abouts {
+  font-size: 16px;
+  letter-spacing: 0px;
+
+  opacity: 0.5;
+}
+
+.chat_sec_second {
+  width: 100%;
+  height: 66%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #f1f1f3;
+  position: relative;
+}
+
+.chat_sec_third {
+  width: 100%;
+  height: 20%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.mine_msgs {
+  width: 20%;
+  height: 10%;
+  background: #f5f6fa;
+  border-radius: 18px 18px 18px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  left: 5.5%;
+}
+
+.chats {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+}
+
+.mine_msgs2 {
+  width: 60%;
+  height: 20%;
+  background: #f5f6fa;
+  border-radius: 18px 18px 18px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 51%;
+  left: 5.5%;
+}
+
+.chats2 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+  padding-left: 15px;
+}
+
+.urs_msgs {
+  width: 65%;
+  height: 28%;
+  background: #00a0ae;
+  border-radius: 18px 18px 0px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18%;
+  left: 28%;
+}
+
+.ur_msgs {
+  font-size: 15px;
+  color: #ffffff;
+  padding: 9px;
+}
+
+.typing {
+  width: 90%;
+  height: 80%;
+  background-color: #d1d1d8;
+  border: none;
+  position: absolute;
+  left: 5%;
+  top: 13%;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  position: absolute;
+  top: 13%;
+  left: 2.5%;
+  opacity: 0.9;
+}
+
+.btn {
+  width: 65px;
+  height: 23px;
+  background-color: #00a0ae;
+  position: absolute;
+  right: 7%;
+  top: 22%;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.active,
+.left_sub:hover {
+  background-color: #f5f6fa;
+  cursor: pointer;
+}
+
+/*  ---- @media query --- */
+
+@media screen and (max-width: 960px) {
+  .ur_msgs {
+    font-size: 10px;
+    padding: 20px;
+  }
+
+  .chats {
+    font-size: 9px;
+    padding: 20px;
+  }
+
+  .chats2 {
+    font-size: 9px;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 55px;
+    height: 18px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    width: 60%;
+  }
+
+  .urs_msgs {
+    width: 75%;
+    height: 40%;
+    left: 22%;
+  }
+
+  .ur_msgs {
+    font-size: 9px;
+  }
+
+  .mine_msgs {
+    width: 35%;
+    height: 10%;
+  }
+
+  .mine_msgs2 {
+    width: 70%;
+    height: 15%;
+    top: 62%;
+  }
+
+  .chats {
+    font-size: 9px;
+    padding: 20px;
+  }
+
+  .chats2 {
+    font-size: 9px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    width: 50%;
+  }
+}
+
+/*  --for dynamic ui--  */
+
+.ur_msg_al {
+  width: 70%;
+  height: 20%;
+}
+
+.mine_wv_ht {
+  top: 42%;
+}
+
+.mine1_msg {
+  width: 65%;
+  height: 28%;
+  background: #00a0ae;
+  border-radius: 18px 18px 0px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18%;
+  left: 28%;
+}
+
+.mine2_msg {
+  width: 60%;
+  height: 20%;
+  position: absolute;
+  top: 51%;
+  left: 5.5%;
+}
+
+@media screen and (max-width: 570px) {
+  .mine_msgs {
+    width: 40%;
+    height: 10%;
+  }
+
+  .mine_msgs2 {
+    width: 80%;
+    height: 15%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .mine_msgs {
+    width: 50%;
+    height: 12%;
+  }
+
+  .mine_msgs2 {
+    width: 80%;
+    height: 15%;
+    top: 78%;
+  }
+
+  .urs_msgs {
+    width: 75%;
+    height: 55%;
+    top: 19%;
+    left: 22%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .left {
+    width: 100%;
+    height: 100%;
+  }
+
+  .right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .active .right {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
